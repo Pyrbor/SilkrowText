@@ -1,0 +1,55 @@
+title: SilkrowText Cheatsheet/Example page
+subtitle: SilkrowText is a lightweight markup language template made for website standardization which uses the silcrow/section sign (§) to begin paragraphs.
+author: By Pyrosfere
+date: File made on 31st of March 2024
+
+/,/
+
+/#3/ Welcome to the world of §Text! /#3/
+
+SilkrowText is a lightweight markup language template made for website standardization, and to use it, you just need to write your .skt file in proper §Text syntax (which you will learn on this page), set its name on the htmlparser.py and the HTML file you want to integrate it to and voilà! You now got yourself a page with the default or custom syntax made for your website or personal use.
+
+The syntax of §Text is very easy, simple and humane to understand, its similar to HTML tags but with /#//?/content/?//#/ instead of /#/&lt;?&gt;content&lt;/?&gt;/#/, it doesn't has closing tags and ~all "elements" are one symbol only, like two /#//*//#/ for bold, two /#/////#/ for italics, /#//#1-6//#/ for headings, (and most importantly) one /#//§//#/ (silcrow or section sign) for indented paragraphs and many other tags. This document contains them all in its brute form. 
+
+To make writing in the .skt format with proper syntax easier and more comfortable, I made a custom syntax highlighting for Notepad++, and to use it, just download it (it is a lightweight program), go to Language > User Defined Language > Define your Language > Import the SilkrowText.xml file on this directory and it highlights. Any questions, try to contact me. More information on GitHub.
+
+All credits go to Pyrosfere. Development of §Text began on early March 2024 :D! - Fun fact: The /_/whole/_/ language is just about /_/100 python lines and one .py file/_/!
+
+/,/
+
+/§/ This is a paragraph /*/with/*/ indentation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Below me, there is a list.
+
+/=/
+/-/ There are no ordered lists, because because.
+/-/ If you want one, make it yourself or something.
+/-/ /~/I may make one soon/~/, actually. (probably not)
+/=/
+
+This right here is a /*/bold statement that needs to be bolded/*/.
+
+And this is a ///statement about Italy/// and foreign terms like ///café///.
+
+Now, this is a statement that /_/I wish to not forget later/_/.
+
+And this, is something that I really /~/regret saying and want to forget/~/.
+
+This is tech nerdy computer /#/boring("programming") stuff;/#/ that I am sure you love.
+
+This, however, is extra /!/important exam stuff/!/ that I really do not want to forget.
+
+Also, below me, there is a line.
+
+/,/
+
+/#1/ I am a very important heading. /#1/
+/#2/ And I am also important, but not that much. /#2/
+/#3/ Now I am even less important. /#3/
+/#4/ I am very, extremely not important. /#4/
+/#5/ Literally nobody uses me and I am very unimportant. /#5/
+/#6/ I don't serve any actual purpose because I am ridiculously tiny and useless. /#6/
+
+/§/ By the way, did I tell /*/you/*/ that I can make /*/ /// /~//_/EXTRA IMPORTANT FORMATTED TEXT/~//_/ /// /*/ with a bunch of these guys, "/" and make it ///very fun///? Well, /_/I guess not yet/_/, but you /~/will see it/~/. Oh, /!/never mind please/!/, I have already shown it to you earlier, but nothing stop me from showing it AGAIN! /*/ /// /~//_/OMG! EXTRA COOL TEXT!/~//_/ /// /*/ Did you see it? Nice right? Did I also tell you that /!/ you can customize /*/every single tag/*/ and formatting/!/ to make your website exactly like you want? And it /_/automatically parses to HTML/_/ with one click /~/(ok, ok, 3 or so)/~/?
+
+/,/
